@@ -17,4 +17,5 @@ TOTAL_TIME=$((END_TIME - START_TIME))
 echo "TOTAL Time is: $TOTAL_TIME"
 
 echo "Trainer's code"
-TOTAL_TIME=$(($END_TIME - $START_TIME))
+TOTAL_time=$(($END_TIME - $START_TIME))
+echo "Trainers code for TOTAL Time is: $TOTAL_time"
