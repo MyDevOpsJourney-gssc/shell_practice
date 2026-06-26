@@ -1,0 +1,10 @@
+#!/bin/bash
+
+PERSON1=$1
+PERSON2=$2
+PERSON3=$3
+echo "$PERSON1: Hey, $PERSON2 we are going to blast you"
+echo "$PERSON2: Yes, please. You are welcome"
+echo "$PERSON1: Hey, $PERSON2 I am serious!!"
+echo "$PERSON2: Hey $PERSON1, We are also serious!!!"
+echo "I am the Third PERSON -- $PERSON3"
