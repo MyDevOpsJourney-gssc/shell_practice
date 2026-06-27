@@ -26,9 +26,10 @@ VALIDATE_UNINSTALL()
 {
 if [ $2 -eq 0 ]; then
   echo "$1 is uninstalled successfully"
-  exit 1
+  
 else
   echo "$1 uninstallation is failed"
+  exit 1
 fi
 }
 
